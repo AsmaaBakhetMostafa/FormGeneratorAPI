@@ -1,0 +1,12 @@
+E:\Maha_Private\Hala_Center_14-6-2019\Halal\Halal\HalalCenter.ViewModels\bin\Debug\Halal.ViewModels.dll
+E:\Maha_Private\Hala_Center_14-6-2019\Halal\Halal\HalalCenter.ViewModels\bin\Debug\Halal.ViewModels.pdb
+E:\Maha_Private\Hala_Center_14-6-2019\Halal\Halal\HalalCenter.ViewModels\bin\Debug\Halal.Localization.dll
+E:\Maha_Private\Hala_Center_14-6-2019\Halal\Halal\HalalCenter.ViewModels\bin\Debug\Halal.Models.dll
+E:\Maha_Private\Hala_Center_14-6-2019\Halal\Halal\HalalCenter.ViewModels\bin\Debug\Halal.Localization.pdb
+E:\Maha_Private\Hala_Center_14-6-2019\Halal\Halal\HalalCenter.ViewModels\bin\Debug\Halal.Models.pdb
+E:\Maha_Private\Hala_Center_14-6-2019\Halal\Halal\HalalCenter.ViewModels\bin\Debug\en\Halal.Localization.resources.dll
+E:\Maha_Private\Hala_Center_14-6-2019\Halal\Halal\HalalCenter.ViewModels\obj\Debug\Halal.ViewModels.csprojAssemblyReference.cache
+E:\Maha_Private\Hala_Center_14-6-2019\Halal\Halal\HalalCenter.ViewModels\obj\Debug\Halal.ViewModels.csproj.CoreCompileInputs.cache
+E:\Maha_Private\Hala_Center_14-6-2019\Halal\Halal\HalalCenter.ViewModels\obj\Debug\Halal.ViewModels.csproj.CopyComplete
+E:\Maha_Private\Hala_Center_14-6-2019\Halal\Halal\HalalCenter.ViewModels\obj\Debug\Halal.ViewModels.dll
+E:\Maha_Private\Hala_Center_14-6-2019\Halal\Halal\HalalCenter.ViewModels\obj\Debug\Halal.ViewModels.pdb

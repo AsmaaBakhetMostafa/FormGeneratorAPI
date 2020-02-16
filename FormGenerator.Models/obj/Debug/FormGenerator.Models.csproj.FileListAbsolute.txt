@@ -1,0 +1,10 @@
+L:\Venusera\Logilator\APi\Solution\Halal\HalalCenter.Models\bin\Debug\FormGenerator.Models.dll
+L:\Venusera\Logilator\APi\Solution\Halal\HalalCenter.Models\bin\Debug\FormGenerator.Models.pdb
+L:\Venusera\Logilator\APi\Solution\Halal\HalalCenter.Models\obj\Debug\FormGenerator.Models.csprojResolveAssemblyReference.cache
+L:\Venusera\Logilator\APi\Solution\Halal\HalalCenter.Models\obj\Debug\FormGenerator.Models.dll
+L:\Venusera\Logilator\APi\Solution\Halal\HalalCenter.Models\obj\Debug\FormGenerator.Models.pdb
+L:\Venusera\Logilator\APi\Solution\FormGeneratorAPI\FormGenerator.Models\bin\Debug\FormGenerator.Models.dll
+L:\Venusera\Logilator\APi\Solution\FormGeneratorAPI\FormGenerator.Models\bin\Debug\FormGenerator.Models.pdb
+L:\Venusera\Logilator\APi\Solution\FormGeneratorAPI\FormGenerator.Models\obj\Debug\FormGenerator.Models.dll
+L:\Venusera\Logilator\APi\Solution\FormGeneratorAPI\FormGenerator.Models\obj\Debug\FormGenerator.Models.pdb
+L:\Venusera\Logilator\APi\Solution\FormGeneratorAPI\FormGenerator.Models\obj\Debug\FormGenerator.Models.csprojResolveAssemblyReference.cache

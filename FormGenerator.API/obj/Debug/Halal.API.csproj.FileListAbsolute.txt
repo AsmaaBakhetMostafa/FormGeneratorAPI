@@ -1,0 +1,2 @@
+E:\Maha_Private\Hala_Center_14-6-2019\Halal\Halal\HalalCenter.API\obj\Debug\Halal.API.csprojAssemblyReference.cache
+E:\Maha_Private\Hala_Center_14-6-2019\Halal\Halal\HalalCenter.API\obj\Debug\Halal.API.csproj.CoreCompileInputs.cache

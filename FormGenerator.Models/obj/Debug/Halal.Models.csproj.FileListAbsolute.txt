@@ -1,0 +1,6 @@
+E:\Maha_Private\Hala_Center_14-6-2019\Halal\Halal\HalalCenter.Models\bin\Debug\Halal.Models.dll
+E:\Maha_Private\Hala_Center_14-6-2019\Halal\Halal\HalalCenter.Models\bin\Debug\Halal.Models.pdb
+E:\Maha_Private\Hala_Center_14-6-2019\Halal\Halal\HalalCenter.Models\obj\Debug\Halal.Models.csprojAssemblyReference.cache
+E:\Maha_Private\Hala_Center_14-6-2019\Halal\Halal\HalalCenter.Models\obj\Debug\Halal.Models.csproj.CoreCompileInputs.cache
+E:\Maha_Private\Hala_Center_14-6-2019\Halal\Halal\HalalCenter.Models\obj\Debug\Halal.Models.dll
+E:\Maha_Private\Hala_Center_14-6-2019\Halal\Halal\HalalCenter.Models\obj\Debug\Halal.Models.pdb

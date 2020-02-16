@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7C7891C4-16A9-45EF-ABB8-BE58302C5FCC}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FormGenerator.Services</RootNamespace>
+    <AssemblyName>FormGenerator.Services</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.6.0.4\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="PredicateExtensions, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\PredicateExtensions.1.0.0\lib\PredicateExtensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.IdentityModel" />
+    <Reference Include="System.Net.Http.Formatting, Version=5.2.6.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.5.2.6\lib\net45\System.Net.Http.Formatting.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin\Form\FiledOptions\FormFiledsService.cs" />
+    <Compile Include="Admin\Form\FiledOptions\IFormFiledsService.cs" />
+    <Compile Include="Admin\Form\FormFileds\FormFiledsService.cs" />
+    <Compile Include="Admin\Form\FormFileds\IFormFiledsService.cs" />
+    <Compile Include="Admin\Form\IFormStructureService.cs" />
+    <Compile Include="Admin\Form\FormStructureService.cs" />
+    <Compile Include="Admin\User\IUserService.cs" />
+    <Compile Include="Admin\User\Role\IRoleService.cs" />
+    <Compile Include="Admin\User\Role\RoleService.cs" />
+    <Compile Include="Admin\User\Token\ITokenService.cs" />
+    <Compile Include="Admin\User\Token\TokenService.cs" />
+    <Compile Include="Admin\User\UserRole\IUserRoleService.cs" />
+    <Compile Include="Admin\User\UserRole\UserRoleService.cs" />
+    <Compile Include="Admin\User\UserService.cs" />
+    <Compile Include="Helpers\EmailHelper.cs" />
+    <Compile Include="Helpers\EnumHelper.cs" />
+    <Compile Include="Helpers\FileHelper.cs" />
+    <Compile Include="Helpers\HttpRequestHelper.cs" />
+    <Compile Include="Helpers\LogHelper.cs" />
+    <Compile Include="MailAccount\MailAccountService.cs" />
+    <Compile Include="MailAccount\IMailAccountService.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Interfaces\Log\" />
+    <Folder Include="Interfaces\Product\" />
+    <Folder Include="Interfaces\User\" />
+    <Folder Include="Location\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="LICENSE.md" />
+    <None Include="packages.config" />
+    <None Include="readme.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FormGenerator.Data\FormGenerator.Data.csproj">
+      <Project>{d5837475-e919-483e-9add-da1fe0b0f433}</Project>
+      <Name>FormGenerator.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FormGenerator.Localization\FormGenerator.Localization.csproj">
+      <Project>{e12dd305-c521-44a9-9537-e233d75c06fd}</Project>
+      <Name>FormGenerator.Localization</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FormGenerator.Models\FormGenerator.Models.csproj">
+      <Project>{b6754ace-404d-4644-a8ee-4cf73f2ddc39}</Project>
+      <Name>FormGenerator.Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FormGenerator.Repositories\FormGenerator.Repositories.csproj">
+      <Project>{92aebc51-6577-4a99-9fc2-87c326023627}</Project>
+      <Name>FormGenerator.Repositories</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FormGenerator.ViewModels\FormGenerator.ViewModels.csproj">
+      <Project>{13f2eb1b-d086-4864-86a1-4c0cedaa2d43}</Project>
+      <Name>FormGenerator.ViewModels</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
